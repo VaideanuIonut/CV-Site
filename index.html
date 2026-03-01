@@ -83,7 +83,7 @@
             border-top: 4px solid transparent;
             transition: transform 0.2s;
             margin-bottom: 20px;
-            position: relative; /* Necesar pentru click pe tot cardul */
+            position: relative;
         }
         
         .card-custom:hover {
@@ -148,20 +148,22 @@
                 
                 <section id="about" class="mb-5">
                     <p class="lead text-secondary mt-3">
-                        Second-year Economic Informatics student with over 2 months of working experience in Backend roles, where I developed custom API endpoints and handled server-client integrations. 
+                        Second-year Economic Informatics student with over 2 months of experience in Backend roles (API development, server-client integrations). Prepared for Data Analysis and Engineering through personal projects, I am now seeking opportunities in these fields. 
                     </p>
                     
                     <div class="mt-4">
-                        <span class="tech-pill">Python</span>
-                        <span class="tech-pill">Pandas</span>
-                        <span class="tech-pill">SQL</span>
                         <span class="tech-pill">Node.js</span>
-                        <span class="tech-pill">Git</span>
-                        <span class="tech-pill">Linux/Bash</span>
-                        <span class="tech-pill">C/C++</span>
-                        <span class="tech-pill">JavaScript</span>
                         <span class="tech-pill">Express.js</span>
                         <span class="tech-pill">Sequelize.js</span>
+                        <span class="tech-pill">Oracle SQL</span>
+                        <span class="tech-pill">Python</span>
+                        <span class="tech-pill">Pandas</span>
+                        <span class="tech-pill">SQLite</span>
+                        <span class="tech-pill">Git</span>
+                        <span class="tech-pill">Linux/Bash</span>
+                        <span class="tech-pill">JavaScript</span>
+                        <span class="tech-pill">C/C++</span>
+                        <span class="tech-pill">PHP</span>
                     </div>
                 </section>
 
@@ -202,75 +204,57 @@
                         <div class="col-md-6">
                             <div class="card-custom h-100">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h3 class="h5 fw-bold">Data Engineering ETL AWS</h3>
-                                    <a href="https://github.com/VaideanuIonut/Data-Engineering-ETL-AWS" target="_blank" class="text-secondary stretched-link"><i class="bi bi-github fs-5"></i></a>
+                                    <h3 class="h5 fw-bold">Student Enrollment System</h3>
+                                    <a href="https://github.com/VaideanuIonut/Node.js-Backend-Student-Enrollment-System" target="_blank" class="text-secondary stretched-link"><i class="bi bi-github fs-5"></i></a>
                                 </div>
                                 <p class="text-secondary small">
-                                    Developed and deployed a robust end-to-end ETL pipeline for public data using Python/Pandas for data transformation. Leveraged Docker for containerization and secured the data storage in an AWS RDS (PostgreSQL) instance.
+                                    Developed a RESTful API with Node.js and Express.js to manage student enrollment and server-client data flows. Integrated Sequelize ORM with SQLite for relational data modeling and developed a functional integration between the frontend and backend.
                                 </p>
                                 <div class="mt-3">
-                                    <span class="tech-pill">Python</span>
-                                    <span class="tech-pill">Pandas</span>
-                                    <span class="tech-pill">AWS RDS</span>
-                                    <span class="tech-pill">Docker</span>
-                                    <span class="tech-pill">PostgreSQL</span>
+                                    <span class="tech-pill">Node.js</span>
+                                    <span class="tech-pill">Express.js</span>
+                                    <span class="tech-pill">SQLite</span>
+                                    <span class="tech-pill">Sequelize</span>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-md-6">
+                            <div class="card-custom h-100">
+                                <div class="d-flex justify-content-between mb-3">
+                                    <h3 class="h5 fw-bold">Insurance Database System</h3>
+                                    <a href="https://github.com/VaideanuIonut/Insurance-Database-System-SQL" target="_blank" class="text-secondary stretched-link"><i class="bi bi-github fs-5"></i></a>
+                                </div>
+                                <p class="text-secondary small">
+                                    Designed and implemented an insurance lifecycle database using Oracle SQL and 3rd Normal Form (3NF). Developed complex queries with multi-table JOINs, aggregations, and conditional logic for business reporting. Documented architecture via dbdiagram.io.
+                                </p>
+                                <div class="mt-3">
+                                    <span class="tech-pill">Oracle SQL</span>
+                                    <span class="tech-pill">3NF</span>
+                                    <span class="tech-pill">Relational Modeling</span>
+                                    <span class="tech-pill">DB Design</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
                             <div class="card-custom h-100">
                                 <div class="d-flex justify-content-between mb-3">
                                     <h3 class="h5 fw-bold">Uber Data Analysis</h3>
                                     <a href="https://github.com/VaideanuIonut/uber-data-analysis" target="_blank" class="text-secondary stretched-link"><i class="bi bi-github fs-5"></i></a>
                                 </div>
                                 <p class="text-secondary small">
-                                    Executed a full-cycle data analysis project on an Uber dataset, utilizing Python (Pandas) for extensive cleaning, outlier handling (median imputation), and data validation. Wrote SQL queries against SQLite to extract key business insights.
+                                    Executed a full-cycle data analysis project on an Uber dataset, utilizing Python (Pandas) for cleaning, outlier handling (median imputation), and data validation. Wrote SQL queries against SQLite to extract business insights, peak hours, and revenue metrics.
                                 </p>
                                 <div class="mt-3">
                                     <span class="tech-pill">Python</span>
                                     <span class="tech-pill">Pandas</span>
                                     <span class="tech-pill">SQLite</span>
+                                    <span class="tech-pill">Data Validation</span>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-md-6">
-                            <div class="card-custom h-100">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <h3 class="h5 fw-bold">Global Climate Analysis</h3>
-                                    <a href="https://github.com/VaideanuIonut/Global-Climate-Analysis" target="_blank" class="text-secondary stretched-link"><i class="bi bi-github fs-5"></i></a>
-                                </div>
-                                <p class="text-secondary small">
-                                    Built an end-to-end data pipeline in Python/Pandas to clean, merge (CSV/Parquet), and transform global climate datasets, resolving issues like duplicate rows and missing values. Created visualizations in Matplotlib/Seaborn.
-                                </p>
-                                <div class="mt-3">
-                                    <span class="tech-pill">Python</span>
-                                    <span class="tech-pill">Pandas</span>
-                                    <span class="tech-pill">Matplotlib/Seaborn</span>
-                                    <span class="tech-pill">Parquet/CSV</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="card-custom h-100">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <h3 class="h5 fw-bold">Linux-User-Management-CLI</h3>
-                                    <a href="https://github.com/VaideanuIonut/Linux-User-Management-CLI" target="_blank" class="text-secondary stretched-link"><i class="bi bi-github fs-5"></i></a>
-                                </div>
-                                <p class="text-secondary small">
-                                    Developed a secure Bash CLI for user authentication and management on Linux, featuring SHA256 password encryption and
-                                    Regex validation for robust security. Automated the generation of detailed system reports, providing real-time user activity
-                                    metrics and disk usage monitoring
-                                </p>
-                                <div class="mt-3">
-                                    <span class="tech-pill">Bash</span>
-                                    <span class="tech-pill">Linux</span>
-                                    <span class="tech-pill">Security</span>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </section>
 
@@ -282,7 +266,7 @@
                         <span class="badge bg-light text-dark border">2024 - 2027</span>
                         <p class="small text-muted mt-2">
                             <strong>Specialization:</strong> Economic Informatics<br>
-                            <strong>Relevant Coursework:</strong> Databases, OOP, Data Structures, Web Technologies, Data Analysis, Operating Systems.
+                            <strong>Relevant Coursework:</strong> Databases, OOP, Data Structures, Web Technologies, Data Analysis, Operating Systems, Computer Networks.
                         </p>
                     </div>
                 </section>
@@ -294,7 +278,7 @@
                         
                         <div class="d-flex justify-content-center flex-wrap gap-3 mb-4">
                             <a href="https://www.linkedin.com/in/ionut-marian-vaideanu" target="_blank" class="btn btn-outline-primary"><i class="bi bi-linkedin me-2"></i>LinkedIn</a>
-                            <a href="https://github.com/VaideanuIonut" target="_blank" class="btn btn-outline-dark"><i class="bi bi-github me-2"></i>GitHub</a>
+                            <a href="https://github.com/Vaideanulonut" target="_blank" class="btn btn-outline-dark"><i class="bi bi-github me-2"></i>GitHub</a>
                         </div>
                         
                         <p class="mt-3 text-muted small">
